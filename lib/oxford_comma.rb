@@ -1,5 +1,5 @@
 #array = ["fiddleheads","okra","kohlrabi"]
-array = ["fiddleheads","okra"]
+#array = ["fiddleheads","okra"]
 
 def oxford_comma(array)
  final_item = array[-1]
@@ -17,4 +17,4 @@ def oxford_comma(array)
 #  puts reduced_array
 end
 
-oxford_comma(array)
+#oxford_comma(array)
