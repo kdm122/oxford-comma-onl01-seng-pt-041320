@@ -13,7 +13,7 @@ def oxford_comma(array)
     complete_item = "#{first_item}" + " and #{final_item}"
   end
 #  puts array
-  puts complete_item
+#  puts complete_item
 #  puts reduced_array
 end
 
