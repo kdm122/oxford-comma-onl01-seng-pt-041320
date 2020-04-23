@@ -1,4 +1,5 @@
 array = ["fiddleheads","okra","kohlrabi"]
+array = 
 
 def oxford_comma(array)
  final_item = array[-1]
