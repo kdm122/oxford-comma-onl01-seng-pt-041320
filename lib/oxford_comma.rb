@@ -7,8 +7,6 @@ def oxford_comma(array)
  if array.size > 1
     array.join(", ")
     complete_item = array.join(", ") + ", and #{final_item}"
-    
-  end
   elsif array.size == 1
     complete_item = array + " and #{final_item}"
   end
