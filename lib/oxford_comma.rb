@@ -1,5 +1,5 @@
-array = ["fiddleheads","okra","kohlrabi"]
-array = 
+#array = ["fiddleheads","okra","kohlrabi"]
+array = ["fiddleheads","okra"]
 
 def oxford_comma(array)
  final_item = array[-1]
