@@ -3,16 +3,20 @@
 
 def oxford_comma(array)
  final_item = array[-1]
- array.pop
+ 
  
  if array.size > 1
+    array.pop
     array.join(", ")
     complete_item = array.join(", ") + ", and #{final_item}"
     return complete_item
   elsif array.size == 1
   first_item = array[0]
+  array.pop
     complete_item = "#{first_item}" + " and #{final_item}"
     return complete_item
+  else
+    return array
   end
 #  puts array
 #  puts complete_item
